@@ -47,7 +47,7 @@ Hubstxt:NewButton("IY Admin", "Universal Admin", function()
 end)
 
  local FE = Window:NewTab("FE Fun [R6 / R15]")
-    local FES = FE:NewSection("Other Hubs")
+    local FES = FE:NewSection("FE Fun [R6 / R15]")
     
    FES:NewButton("Backflip [X]", "Keybinded With [X]", function()
   loadstring(game:HttpGet(('https://pastebin.com/raw/7wDcPtLk'),true))()
