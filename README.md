@@ -46,6 +46,10 @@ Hubstxt:NewButton("IY Admin", "Universal Admin", function()
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
+Hubstxt:NewButton("M-V-S Gui", "MVSD", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/JST1BRA/mvs-skyze/main/README.md'),true))()
+end)
+
  local FE = Window:NewTab("FE Fun [R6 / R15]")
     local FES = FE:NewSection("FE Fun [R6 / R15]")
     
