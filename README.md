@@ -1,12 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("MOUSETRAP - UNIVERSAL SCRIPT FOR SKYZE", "Synapse")
+local Window = Library.CreateLib("MOUSETRAP - UNIVERSAL SCRIPT", "Synapse")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
 
-   MainSection:NewButton("Sword Reach [Equip Sword First!]", "AAaAAaaaaaAAaAAAaaLALALALALALALALALAALALALALAL LALALALALA LALALALALAL ALLALALALALALAL A LALALALALALALALALALALLALAALALLALALALALALLALALALALALA", function()
+   MainSection:NewButton("Sword Reach [Equip Sword First!]", "AZLDFBIPAsKHOFALEJDS", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Severitylol/Universal-Sword-Reach/main/swordreach.lua'),true))()
   end)
+
+
+
 
     local Aim = Main:NewSection("FunStuff")
    
@@ -360,13 +363,18 @@ end)
 
 
 
-    Hubstxt:NewButton("Vortex", "Vortex", function()
+    Hubstxt:NewButton("Vortex [da hood]", "Vortex", function()
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex'),true))()
   end)
 
 
-  Hubstxt:NewButton("ChariotsWare", "ChariotsWare", function()
+  Hubstxt:NewButton("ChariotsWare[hood mooded]", "ChariotsWare", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware'),true))()
+end)
+
+
+  Hubstxt:NewButton("Winter Hub v2[Bloxfruit]", "bwoxfowuwts", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua'),true))()
 end)
 
 Hubstxt:NewButton("Owl Hub", "For Aimbot/ Esp", function()
